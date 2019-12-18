@@ -18,5 +18,8 @@ export default {
       a.target = "_blank";
       a.click();
     };
+    $Vue.prototype.$imgSrcB64 = (f){
+      return 'data:'+f.mime+';base64,'+f.data;
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "vue-small-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Some vue help global function, such as $debug, $openPDFb64, $openFile",
   "main": "plugin.js",
   "scripts": {
