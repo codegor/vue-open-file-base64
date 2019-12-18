@@ -1,30 +1,28 @@
 {
-	"name": "vue-open-file-base64",
-	"version": "0.0.1",
-	"description": "Some vue help global function, such as $debug, $openPDFb64, $openFile",
-	"main": "plugin.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/codegor/vue-open-file-base64.git"
-	},
-	"keywords": [
-		"vue",
-		"helper",
-		"debug",
-		"base64",
-		"open file",
-		"open file from base64"
-	],
-	"author": "codeegor",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/codegor/promised-form-validate/issues"
-	},
-	"homepage": "https://github.com/codegor/promised-form-validate#readme",
-	"dependencies": {
-
-	}
+  "name": "vue-open-file-base64",
+  "version": "0.0.1",
+  "description": "Some vue help global function, such as $debug, $openPDFb64, $openFile",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegor/vue-open-file-base64.git"
+  },
+  "keywords": [
+    "vue",
+    "helper",
+    "debug",
+    "base64",
+    "open file",
+    "open file from base64"
+  ],
+  "author": "codeegor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codegor/vue-open-file-base64/issues"
+  },
+  "homepage": "https://github.com/codegor/vue-open-file-base64#readme",
+  "dependencies": {}
 }
