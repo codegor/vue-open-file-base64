@@ -1,7 +1,6 @@
 export default {
   install($Vue){
     $Vue.prototype.$debug = $Vue.config.devtools;
-    $Vue.prototype.$cloneObj = (obj) => {return JSON.parse(JSON.stringify(obj));};
     $Vue.prototype.$openPDFb64 = (data, name) => {
       // if(this.$debug) console.log('show pdf', name);
       let a = document.createElement("a");
