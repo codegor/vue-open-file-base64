@@ -46,13 +46,16 @@ computed: {
  getImgSrc () {
    return this.$imgSrcB64(this.file);
  },
+ getPdfSrc () {
+   return this.$aSrcPDFb64(this.file.data);
+ },
 },
 methods: {
  doSomethingWithDebugInfo(){
    if(this.$debug) console.log('show some debug info...');
  },
- openPdf(){
-   this.$openPDFb64(this.pdf, 'the_name_of_pdf.pdf'); // open in new window
+ savePdf(){
+   this.$savePDFb64(this.pdf, 'the_name_of_pdf.pdf'); // open in new window
  },
  openExls(){
    this.$openFile(this.xls); // open in new window
@@ -68,8 +71,9 @@ methods: {
 | ----------------| -------- | --------------------------------------------------------------- |
 | **$debug**      | Boolean  | Short hand for Vue debug status var                             |
 | **$imgSrcB64**  | Function | Convert from Base64 img data to src string for img:src property |
-| **$openPDFb64** | Function | Open PDF file from Base64 data at new Browser window            |
-| **$openFile**   | Function | Open any files from url at new window of Browser               |
+| **$aSrcPDFb64** | Function | Convert from Base64 pdf data to src string for a:href property  |
+| **$savePDFb64** | Function | Save PDF file from Base64 data at new Browser window            |
+| **$openFile**   | Function | Open any files from url at new window of Browser                |
 
 ## Suggest
 
